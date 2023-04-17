@@ -1,0 +1,41 @@
+.announcement-bar{
+    font-family: arial;
+}
+
+.navbar-brand img{
+    width:270px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.nav2 {
+    margin-left: 20px;
+    margin-top: 60px;
+    font-size: 16;
+}
+.form-control{
+    margin-left: 100;
+}
+.myimg img{
+    width:100%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+.nav-item{
+    margin-left: 20px;
+}
+.col-md-4 img{
+    margin-bottom: 20;
+    height: 50;
+}
+.myimg1 img{
+    width:100%;
+    height: 100%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.myimg2 img{
+    width:100%;
+    height: 100%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
