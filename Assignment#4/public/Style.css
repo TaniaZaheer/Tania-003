@@ -1,0 +1,93 @@
+body {
+    background-color:rgb(245, 203, 167);
+    margin: 20px;
+}
+.container img{
+   border-radius: 10%;
+   border: 1px solid white;
+   float: right;
+}
+.container h1{
+    color:transparent;
+    -webkit-text-stroke: 1px rgb(128, 57, 69);
+    background: url(ww.JPG);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 40s linear infinite;
+    font-family: serif ;
+    text-align: left;
+    font-size: 350%;
+    top: 25%;
+    line-height: 100px;
+    position: absolute;
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+.container p{
+    color:rgb(128, 57, 69);
+    font-family: 'Times New Roman', Times, serif ;
+    text-align: left;
+    font-size: 120%;
+    top:40%;
+    position: absolute;
+}
+.container h3{
+    color:rgb(128, 57, 69);
+    font-family: 'Times New Roman', Times, serif ;
+    text-align: left;
+    font-size: 120%;
+    top:45%;
+    position: absolute;
+}
+.container h4{
+    color:rgb(128, 57, 69);
+    font-family: 'Times New Roman', Times, serif ;
+    text-align: left;
+    font-size: 120%;
+    top:50%;
+    position: absolute;
+}
+.parent button{
+    top: 58%;
+    position: absolute;
+    margin-left: 250px;
+    color: rgb(128, 57, 69);
+    border-color: rgb(128, 57, 69);;
+}
+.parent ul li{
+    top: 65%;
+    text-decoration: none;
+
+    position: absolute;
+    font-size: 40px;
+    display: inline;
+    margin-left: 20px;
+ }
+ .parent ul li a{
+    color: rgb(128, 57, 69); ;
+}
+
+.parent img{
+    size: 10px;
+    top: 0%;
+    position: absolute;
+    width: 200px;
+    height: 100px;
+}
+.child{
+    padding: 5%;
+    padding-top: 0px;
+    width: 30%;
+    float:left;
+    right: 50%;
+    top: 70%;
+}
+.col-3 a{
+    color: rgb(128, 57, 69); 
+    font-size: 40px;
+    
+    
+}
