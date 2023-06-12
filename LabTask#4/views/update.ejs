@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>Update Form</title>
+    <link rel="stylesheet" href="/Style3.css">
+</head>
+<body>
+    <div class="hello">
+        <h2>Update Form</h2>
+        <form name="Update" action="/checkout" method="PUT" onsubmit="return confirmUpdate()">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="Email" value="<%= jewellery[jewellery.length - 1].Email %>">
+
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="First_Name" value="<%= jewellery[jewellery.length - 1].First_Name %>">
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="Last_Name" value="<%= jewellery[jewellery.length - 1].Last_Name %>">
+
+            <label for="price">Price:</label>
+            <input type="text" id="price" name="price" value="<%= jewellery[jewellery.length - 1].price %>">
+
+            <button type="submit" class="btn btn-outline-danger">Update</button>
+        </form>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>

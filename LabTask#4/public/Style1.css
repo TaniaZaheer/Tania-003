@@ -1,0 +1,97 @@
+body{
+    background-color:rgb(245, 203, 167);
+    margin: 20px;
+}
+
+.navbar-brand{
+    color:  rgb(128, 57, 69);
+    font-family: serif;
+    font-size: 30px;
+    color:transparent;
+    -webkit-text-stroke: 1px rgb(128, 57, 69);
+    background: url(ww.JPG);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 40s linear infinite;  
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+#navbarSupportedContent ul li a {
+    color: rgb(128, 57, 69);
+}
+
+.Homepage figure{
+    margin-top: 80px;
+    margin-left: 400px;   
+    width: 350px;
+    height: 100px;
+    font-family: serif;
+    font-size: 30px;
+    border: 5px solid white;
+    text-decoration: none;
+    background-color: black;
+
+}
+.Homepage{
+    
+    margin-left: 50px;
+    margin-top: 580px;
+}
+.pic{
+    margin-top: 20px;
+    text-decoration: none;
+   
+}
+.pic ul li img{
+    display: inline;
+    list-style: none;
+    border: 5px solid white;
+    
+}
+.pic ul li{
+    list-style: none;
+}
+.pic ul li p{
+text-decoration: none;
+}
+.pic ul li h4{
+    font-family: serif;
+    font-size: 50px;
+    color: rgb(128, 57, 69);
+    margin-left: 700px;
+    margin-top: -430px;
+    position: absolute;
+    }
+    .pic ul li h5{
+        font-family: serif;
+        font-size: 20px;
+        color: rgb(128, 57, 69);
+        margin-left: 700px;
+        margin-top: -300px;
+        position: absolute;
+        
+    }
+    .pic ul li h2{
+        font-family: serif;
+        font-size: 50px;
+        color: rgb(128, 57, 69);
+        margin-left: 30px;
+        margin-top: -430px;
+        position: absolute;
+        
+    }
+    .pic ul li h3{
+        font-family: serif;
+        font-size: 20px;
+        color: rgb(128, 57, 69);
+        margin-left: 30px;
+        margin-top: -300px;
+        position: absolute;
+        
+    }
+    .pic2 ul li p{
+        text-decoration: none;
+    }
