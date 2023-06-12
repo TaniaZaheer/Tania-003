@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Checkout Form</title>
+    <link rel="stylesheet" href="/Style3.css">
+</head>
+<body>
+    <div class="hello">
+        <h2>Checkout Form</h2>
+        <form name="Checkout" action="/checkout" method="POST" onsubmit="return confirmUpdate()">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="Email">
+
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="First_Name">
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="Last_Name">
+
+            <label for="price">Price:</label>
+            <input type="text" id="price" name="price">
+
+            <button type="submit" class="btn btn-outline-danger">Submit</button>
+            <button type="button" class="btn btn-outline-danger" onclick="redirectToUpdatePage()">Update</button>
+        </form>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
